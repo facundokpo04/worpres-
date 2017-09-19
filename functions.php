@@ -9,7 +9,7 @@ function theme_styles() {
     wp_enqueue_style('si-css', get_template_directory_uri() . '/css/shop-item.css');
     wp_enqueue_style('si-css', get_template_directory_uri() . '/css/half-slider.css');
     wp_enqueue_style('si-css', get_template_directory_uri() . '/css/sweetalert.css');
-    wp_enqueue_style('si-css', get_template_directory_uri() . '/css/font-awesome/css/font-awesome.min.css');
+    wp_enqueue_style('si-css', get_template_directory_uri() . '/css/font-awesome/css/font-awesome.css');
     wp_enqueue_style('style-css', get_template_directory_uri() . '/style.css');
     
     

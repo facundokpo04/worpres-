@@ -93,6 +93,7 @@
  Bootstrap Core JavaScript 
 <script src="assets/dist/js/bootstrap.min.js"></script>
 --><script type="text/javascript" src="https://www.tutiempo.net/s-widget/l_yiGwbxtBtWzs8ehUKASEEkE1EzaUTYWlLYkdEZyIq1DoGImI3"></script><!--
+<!--
  jqueryvalidate 
 <script src="assets/dist/js/jquery.validate.js"></script>
  registro 

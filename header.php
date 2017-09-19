@@ -24,7 +24,7 @@
         
                  Custom Fonts 
         -->       
-        <link href="assets/dist/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+ 
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
