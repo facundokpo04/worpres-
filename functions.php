@@ -37,6 +37,9 @@ function themename_widgets_init() {
  
    
 }
-add_action( 'widgets_init', 'themename_widgets_init' );
 
-?>
+add_action( 'widgets_init', 'themename_widgets_init' );
+add_theme_support( 'post-thumbnails' );
+add_image_size( 'list_articles_thumbs', 320, 150,true );
+
+?> 
