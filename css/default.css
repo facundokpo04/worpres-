@@ -1,0 +1,384 @@
+/*
+ * default color scheme
+ */
+ ::selection{
+		background-color:#1a61cb;
+		color:#fff;
+	}
+
+	/*
+	* Top header social icon
+	*/
+	.rdn-header-social li:hover{ background-color:#1a61cb; border:1px solid #1a61cb;}
+
+	/*
+	* logo title color
+	*/
+	.site-title:first-letter{ color:#1a61cb; }
+
+	/*
+	* navigation
+	*/
+	.navbar-default .navbar-nav > li:hover > a, 
+	.navbar-default .navbar-nav > li:focus > a, 
+	.navbar-default .navbar-nav > .active > a, 
+	.navbar-default .navbar-nav > .active:hover > a, 
+	.navbar-default .navbar-nav > .active:focus > a, 
+	.navbar-default .navbar-nav > .current_menu_item > a, 
+	.navbar-default .navbar-nav > .current_menu_item:hover > a, 
+	.navbar-default .navbar-nav > .current_menu_item:focus > a, 
+	.navbar-default .navbar-nav > .current_page_item > a,
+	.navbar-default .navbar-nav > .open:hover > a, 
+	.navbar-default .navbar-nav > .open:focus > a{
+		border-top:3px solid #1a61cb;
+		border-bottom:3px solid #1a61cb;
+	}
+
+	.dropdown-menu{
+		border-top:1px solid #1a61cb;
+		border-bottom:1px solid #1a61cb;
+	}
+
+	.dropdown-menu > .active > a, 
+	.dropdown-menu > .active:hover > a, 
+	.dropdown-menu > .active:focus > a, 
+	.navbar-default .navbar-nav > .open > a, 
+	.navbar-default .navbar-nav > .open:hover > a, 
+	.navbar-default .navbar-nav > .open:focus > a, 
+	.navbar-default .navbar-nav .open .dropdown-menu > li:hover > a, 
+	.navbar-default .navbar-nav .open .dropdown-menu > li:focus > a{
+		background-color:#1a61cb;
+	}
+
+	
+	.navbar-default .navbar-nav > .current_menu_item > a:after,
+	.navbar-default .navbar-nav > .active > a:after, 
+	.navbar-default .navbar-nav > li:hover > a:after, 
+	.navbar-default .navbar-nav > li:focus > a:after{
+		color:#1a61cb;
+	}
+	
+	.navbar-default .navbar-nav > .current_page_item > a:after{
+		color:#1a61cb;
+	}
+
+	a,
+	a:hover,
+	a:focus,
+	a:active {
+		color:#1a61cb;
+	}
+
+
+	/*
+	* slider
+	*/
+	.carousel-control{ color:#1a61cb; }
+	.carousel-control:hover{ background-color:#1a61cb; border:1px solid #1a61cb; }
+	.carousel-caption h1{ background-color:rgba(26, 97, 203, 0.7); }
+	.carousel-indicators .active{ background-color:#1a61cb; }
+	.carousel-caption .rdn-slider-btn{ border:2px solid #1a61cb; color:#1a61cb; }
+	.rdn-slider-btn:hover, .rdn-slider-btn:focus{ background-color:#1a61cb; }
+	.carousel-control{ border:1px solid #1a61cb; }
+	
+	/*
+	* callout
+	*/
+	#rdn-callout{ background-color:#1a61cb; }
+	.rdn-callout-btn:hover{ color:#1a61cb; }
+
+	/*
+	* service
+	*/
+	.section-desc:before{ background-color:#1a61cb; }
+	.rdn-service-btn,.rdn-service-btn:hover{ color:#1a61cb; }
+	.rdn-service-icon{ background-color:#1a61cb; }
+	
+	.rdn-service-btn, .rdn-service-btn:hover {
+		color: #1A61CC;
+		background-image: -webkit-gradient(linear, left bottom, left top, from(transparent), color-stop(0.0625em, transparent), color-stop(0.0625em, #1A61CC), color-stop(0.125em, #1A61CC), color-stop(0.125em, transparent));
+		background-image: linear-gradient(to top, transparent, transparent 0.0625em, #1A61CC 0.0625em, #1A61CC 0.125em, transparent 0.125em);
+	}
+
+	/*
+	* home news
+	*/
+	.more-link{ border:2px solid #1a61cb; color:#1a61cb; }
+	.more-link:hover, .more-link:focus{ background-color:#1a61cb; }
+
+	/*
+	* portfolio
+	*/
+	.portfolio-overlay{ 
+		background:-moz-linear-gradient( transparent 0%, #1a61cb 100% );
+		background:-webkit-linear-gradient( transparent 0%, #1a61cb 100% );
+		background:-o-linear-gradient( transparent 0%, #1a61cb 100% );
+	}
+
+	.rdn-portfolio-tabs li a{
+		color:#1a61cb;
+	}
+
+	.rdn-portfolio-tabs .active{
+		background-color:#1a61cb;
+	}
+
+
+	/*
+	* testimonial
+	*/
+	.testimonial-content:before, .testimonial-content:after, .testimonial-title{ color:#1a61cb; }
+	.carousel-control-testi.left .fa, .carousel-control-testi.right .fa{ color:#1a61cb; }
+	.carousel-control-testi.left:hover, 
+	.carousel-control-testi.left:focus,  
+	.carousel-control-testi.right:hover, 
+	.carousel-control-testi.right:focus{ background-color:#1a61cb; }
+
+	/*
+	* team
+	*/
+
+	.rdn-team-area:hover .team-thumbnail img{
+		border:5px solid #1a61cb;
+	}
+
+	.team-title h3, 
+	.team-title:hover h3,
+	.team-title:focus h3 { color:#1a61cb; }
+	.team-more-link{ background-color:#1a61cb; }
+
+
+
+	/*
+	* contact
+	*/
+	.contact_section_heading{ color:#1a61cb; }
+	.rdn-page-social li:hover{ background-color:#1a61cb; border:1px solid #1a61cb;}
+	.entry-title a:hover,
+	.entry-title a:focus, 
+	.entry-meta span a:hover, 
+	.entry-meta span a:focus{
+		color:#1a61cb;
+	}
+
+	/*
+	* button
+	*/
+	button,
+	button[disabled]:hover,
+	button[disabled]:focus,
+	input[type="button"],
+	input[type="button"][disabled]:hover,
+	input[type="button"][disabled]:focus,
+	input[type="reset"],
+	input[type="reset"][disabled]:hover,
+	input[type="reset"][disabled]:focus,
+	input[type="submit"],
+	input[type="submit"][disabled]:hover,
+	input[type="submit"][disabled]:focus {
+		border: 2px solid #1a61cb;
+		color:#1a61cb;
+	}
+
+	button:hover,
+	button:focus,
+	input[type="button"]:hover,
+	input[type="button"]:focus,
+	input[type="reset"]:hover,
+	input[type="reset"]:focus,
+	input[type="submit"]:hover,
+	input[type="submit"]:focus {
+		background: #1a61cb;
+	}
+
+	/*
+	* input
+	*/
+	input[type="text"],
+	input[type="email"],
+	input[type="url"],
+	input[type="password"],
+	input[type="search"],
+	input[type="tel"],
+	input[type="number"],
+	textarea {
+		border-bottom: 1px solid #1a61cb;
+	}
+
+	blockquote { border-left: 4px solid #1a61cb; }
+
+	/*
+	* Widgets
+	*/
+	.widget .widget-title:after, 
+	.widget_search .search-submit,  
+	.widget_calendar #wp-calendar caption, 
+	.widget_calendar tbody a, 
+	.widget_calendar tbody a:hover, 
+	.widget_calendar tbody a:focus,
+	.tagcloud a:hover,
+	.tagcloud a:focus{ background-color:#1a61cb; }
+
+	.widget-title a, 
+	.widget-title a:hover,  
+	.widget-title a:focus, 
+	.widget  li  a:hover, 
+	.widget  li  a:focus,  
+	.widget li:before, 
+	.widget_calendar #wp-calendar th, 
+	.tagcloud a, 
+	.widget_text a:hover, 
+	.widget_text a:focus, 
+	#rdn-footer .widget .news-title a:hover, 
+	#rdn-footer .widget .news-title a:focus{ color:#1a61cb; }
+
+	#rdn-footer .widget li a:hover, 
+	#rdn-footer .widget li a:focus, 
+	#rdn-footer .widget li a:active, 
+	.widget .news-title a:hover, 
+	.widget .news-title a:focus{
+		color:#1a61cb;
+	}
+
+	/*
+	* footer
+	*/
+	.footer-social-icons li:hover{ background-color:#1a61cb; }
+	.rdn-copyright p > a, .rdn-copyright p > a:hover, .rdn-copyright p > a:focus { color:#1a61cb; }
+	.rdn-footer-menu li a:hover, 
+	.rdn-footer-menu li a:focus{ 
+		color:#1a61cb; 
+	}
+
+	#rdn-footer .widget a:hover, 
+	#rdn-footer .widget a:focus{
+		color:#1a61cb;
+	}
+
+	/*
+	* sub header
+	*/
+	.rdn-sub-header li .active, 
+	.rdn-sub-header ul li:before{ color:#1a61cb; }
+	.rdn-sub-header ul li:first-child:before{ display:none; }
+
+
+	/*
+	* comment
+	*/
+	.comments-title:after, 
+	.comment-reply-title:after{
+		border-bottom:2px solid #1a61cb;
+	}
+	.reply:before{
+		color:#1a61cb;
+	}
+
+
+	/*
+	* pagination
+	*/
+
+	.pagination li a{
+		color:#1a61cb;
+	}
+
+	.pagination li a, 
+	.pagination li a:hover, 
+	.pagination li a:focus,
+	.nav-links li span.current, 
+	.nav-links li:hover span.current, 
+	.nav-links li:focus span.current{
+		border:1px solid #1a61cb;
+	}
+
+	.pagination .current a, 
+	.pagination .current:hover a, 
+	.pagination .current:focus a,
+	.pagination li:hover a, 
+	.pagination li:focus a,
+	.nav-links li span.current,
+	.nav-links li:hover span.current, 
+	.nav-links li:focus span.current
+	{
+		background-color:#1a61cb;
+	}
+
+	.page-links a {
+		border:1px solid #1a61cb;
+		color:#1a61cb;
+	}
+	.page-links > a:hover{
+		background-color:#1a61cb;
+	}
+
+	/*
+	* post stylish
+	*/
+	.post-style-header{
+		background-color:#1a61cb;
+	}
+
+	.entry-style-content{
+		/* border-bottom:2px solid #1a61cb; */
+	}
+
+	.entry-style-date span strong{
+		color:#1a61cb;
+		border:5px solid #1a61cb;
+	}
+
+
+	/*
+	* page scroll
+	*/
+	.rdn_page_scroll{
+		background-color:#1a61cb;
+	}
+	
+	/*
+	* Woocommerce color css
+	*/
+	.woocommerce #respond input#submit.alt, 
+	 .woocommerce a.button.alt, 
+	 .woocommerce button.button.alt, 
+	 .woocommerce input.button.alt,
+	 .woocommerce #respond input#submit.alt:hover, 
+	 .woocommerce a.button.alt:hover, 
+	 .woocommerce button.button.alt:hover, 
+	 .woocommerce input.button.alt:hover,
+	 .woocommerce #respond input#submit.disabled:hover, 
+	 .woocommerce #respond input#submit:disabled:hover, 
+	 .woocommerce #respond input#submit:disabled[disabled]:hover, 
+	 .woocommerce a.button.disabled:hover, 
+	 .woocommerce a.button:disabled:hover, 
+	 .woocommerce a.button:disabled[disabled]:hover, 
+	 .woocommerce button.button.disabled:hover, 
+	 .woocommerce button.button:disabled:hover, 
+	 .woocommerce button.button:disabled[disabled]:hover, 
+	 .woocommerce input.button.disabled:hover, 
+	 .woocommerce input.button:disabled:hover, 
+	 .woocommerce input.button:disabled[disabled]:hover,
+	 .woocommerce #respond input#submit.disabled, 
+	 .woocommerce #respond input#submit:disabled, 
+	 .woocommerce #respond input#submit:disabled[disabled], 
+	 .woocommerce a.button.disabled, .woocommerce a.button:disabled, 
+	 .woocommerce a.button:disabled[disabled], 
+	 .woocommerce button.button.disabled, 
+	 .woocommerce button.button:disabled, 
+	 .woocommerce button.button:disabled[disabled], 
+	 .woocommerce input.button.disabled, 
+	 .woocommerce input.button:disabled, 
+	 .woocommerce input.button:disabled[disabled],
+	 .woocommerce #respond input#submit, 
+	 .woocommerce a.button, 
+	 .woocommerce button.button, 
+	 .woocommerce input.button,
+	 #add_payment_method .wc-proceed-to-checkout a.checkout-button, 
+	 .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, 
+	 .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button,
+	 .woocommerce span.onsale,
+	 .woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+	 .woocommerce .widget_price_filter .ui-slider .ui-slider-handle{
+		background: #1a61cb;
+	 }
