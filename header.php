@@ -71,7 +71,7 @@
                 <nav class="collapse navbar-collapse" role="navigation">
                     <?php
                     wp_nav_menu(array(
-                        'menu' => 'primary',
+                        'menu' => 'Menu',
                         'theme_location' => 'primary',
                         'depth' => 2,
                         'container' => 'ul',
@@ -100,9 +100,7 @@
 
         </style>
         <!-- www.tutiempo.net - Ancho:477px - Alto:91px -->
-        <hr>
-        <hr>
-
+     
         <!--
              Navigation 
             <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">

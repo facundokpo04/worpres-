@@ -1,22 +1,12 @@
-<?php 
-/**
- * This template for displaying post detail page
- *
- * @package WordPress
- * @subpackage radon
- * @since Radon 0.1
- */
-get_header();
+<?php
+$post = $wp_query->post;
+
+if (in_category('4')) {
+    include(TEMPLATEPATH . '/single_alojamientos.php');
+} else {
+    include(TEMPLATEPATH . '/single_default.php');
+}
+
+
 ?>
-		<div class="container">
-			<div class="row">
-				
-				<div class="col-md-12">
-			
-				
-		
-				
-			</div>
-		</div>
-	
-<?php get_footer(); ?>
+

@@ -66,6 +66,7 @@
             </div>
         </div>
     </div>
+            <?php wp_footer(); ?>
 </footer>
 <!-- Render.js de mercado pago -->
 <!--<script type="text/javascript">

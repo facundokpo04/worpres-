@@ -41,5 +41,40 @@ function themename_widgets_init() {
 add_action( 'widgets_init', 'themename_widgets_init' );
 add_theme_support( 'post-thumbnails' );
 add_image_size( 'list_articles_thumbs', 320, 150,true );
+add_image_size( 'list_articles_post', 600, 230,true );
+add_image_size( 'list_alo_thumbs', 650, 450,true );
+
+register_nav_menus( array(
+	'menu' => 'Menu Superior',
+) );
+        
+function add_responsive_class_content($content){
+
+        $content = mb_convert_encoding($content, 'HTML-ENTITIES', "UTF-8");
+        if (!empty($content)) {
+        $document = new DOMDocument();
+        libxml_use_internal_errors(true);
+        $document->loadHTML(utf8_decode($content));
+
+        $imgs = $document->getElementsByTagName('img');
+        foreach ($imgs as $img) {           
+           $existing_class = $img->getAttribute('class');
+           $img->setAttribute('class', "img-responsive $existing_class");
+        }
+
+        $html = $document->saveHTML();
+        return $html;
+        }
+
+        else {
+
+        return $content;  
+        }
+       
+
+}
+
+add_filter('the_content', 'add_responsive_class_content');
+
 
 ?> 
