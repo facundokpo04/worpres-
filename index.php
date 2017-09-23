@@ -397,7 +397,7 @@
                         ?>
                         <div class="col-sm-4 col-lg-4 col-md-4">
                             <div class="thumbnail">
-                               <?php if( has_post_thumbnail() ) the_post_thumbnail('list_articles_thumbs'); ?>
+                               <?php if( has_post_thumbnail() ) the_post_thumbnail('list_alo_thumbs'); ?>
                                 <div class="caption">
                                     <h4 class="pull-right"></h4>
                                     <h5><a href="#"><?php the_title() ?></a>
